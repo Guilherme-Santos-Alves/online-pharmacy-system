@@ -1,0 +1,31 @@
+.fm-register{ 
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-top: 40px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fm-register h3{
+    color: var(--fm-color-primary);
+    margin: 10px 0px;
+}
+
+.fm-register .btn-primary{
+    background-color: var(--fm-color-primary);
+}
+
+.fm-register .link-opacity-100-hover{
+    color: var(--fm-color-primary);
+    text-decoration: none;
+    transition: all ease 0.5s;
+    font-weight: 600;
+}
+
+.fm-register .link-opacity-100-hover:hover{
+    font-size: 16px;
+    border-bottom: 1px solid var(--fm-color-secondary);
+    color: var(--fm-color-secondary);
+}

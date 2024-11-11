@@ -1,0 +1,27 @@
+.fm-login{ 
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.fm-login h3{
+    color: var(--fm-color-primary);
+}
+
+.fm-login .btn-primary{
+    background-color: var(--fm-color-primary);
+}
+
+.fm-login .link-opacity-100-hover{
+    color: var(--fm-color-primary);
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+.fm-login .link-opacity-100-hover:hover{
+    font-size: 17px;
+    border-bottom: 1px solid var(--fm-color-primary);
+}

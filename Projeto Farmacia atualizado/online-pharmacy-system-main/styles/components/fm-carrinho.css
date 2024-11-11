@@ -1,0 +1,65 @@
+#open-carrinho-btn{
+    color: var(--fm-color-primary);
+    background-color: transparent;
+    border: none;
+    padding-top: 8px;
+    transition: all ease 1s;
+    color: var(--fm-color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--fm-font-primary);
+}
+
+#open-carrinho-btn:hover {
+    color: var(--fm-color-secondary);
+}
+
+.fm-carrinho .offcanvas-title{
+    color: var(--fm-color-primary);
+}
+.fm-carrinho .item-carrinho {
+    display: flex;
+    gap: 20px;
+    width: 380px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.fm-carrinho .item-carrinho ul {
+    flex-shrink: 0; /* Garante que o conteúdo do ul não se expanda além do limite */
+    max-width: 250px; /* Define um tamanho máximo para o conteúdo do ul, ajustável */
+    word-break: break-word; /* Quebra palavras longas em várias linhas */
+}
+
+.fm-carrinho .item-carrinho .botoes-interacao-carrinho .quantidade-item-carrinho {
+    border: 1px solid var(--fm-color-primary);
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    flex-shrink: 0; /* Impede que o select encolha */
+}
+
+.fm-carrinho .item-carrinho .botoes-interacao-carrinho .excluir-item-carrinho{
+    border: 1px solid var(--fm-color-primary);
+    border-radius: 5px;
+    height: 30px;
+    width: 50px;
+    color: green;
+    flex-shrink: 0; /* Impede que o select encolha */
+
+}
+
+.fm-carrinho .finalizar-compra{
+    background-color: red;
+    width: 100%;
+}
+
+.fm-carrinho .finalizar-compra .finalizar-compra-btn{
+    background-color: var(--fm-color-primary);
+    width: 100%;
+    height: 50px;
+    color: white;
+}
